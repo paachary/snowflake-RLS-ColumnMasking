@@ -50,7 +50,7 @@ VALUES
     ( 7566, 'JONES',  'MANAGER',   7839,  to_date('2-4-1981',   'dd-mm-yyyy'),  2975, null, 20 ),
     ( 7788, 'SCOTT',  'ANALYST',   7566,  to_date('13-07-1987', 'dd-mm-yyyy'),  3000, null, 20 ),
     ( 7902, 'FORD',   'ANALYST',   7566,  to_date('3-12-1981',  'dd-mm-yyyy'),  3000, null, 20 ),
-    ( 7369, 'SMITH',  'CLERK',     7902,  to_date('17-12-1980', 'dd-mm-yyyy'),  80,0, null, 20 ),
+    ( 7369, 'SMITH',  'CLERK',     7902,  to_date('17-12-1980', 'dd-mm-yyyy'),  0, null, 20 ),
     ( 7499, 'ALLEN',  'SALESMAN',  7698,  to_date('20-2-1981',  'dd-mm-yyyy'),  1600, 300, 30  ),
     ( 7521, 'WARD',   'SALESMAN',  7698,  to_date('22-2-1981',  'dd-mm-yyyy'),  1250, 500, 30  ),
     ( 7654, 'MARTIN', 'SALESMAN',  7698,  to_date('28-9-1981',  'dd-mm-yyyy'),  1250, 1400, 30 ),
