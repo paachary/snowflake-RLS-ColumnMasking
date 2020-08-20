@@ -29,8 +29,10 @@ This script creates two database views which get accessed by associates who log 
 View Name: 
 
 ==> employee_hierarchy : 
-      Displays the details of logged-in associate and details of the associate's reportees if the associate is a manager.
-      This view joins with the role_mapping_table to restrict the records that must be visible to the logged-in associate.
+
+* Displays the details of logged-in associate and details of the associate's reportees if the associate is a manager.
+
+* This view joins with the role_mapping_table to restrict the records that must be visible to the logged-in associate.
 
 ==> employees: Displays the details of all the associates in the system viewable by the HR personnel.
 
