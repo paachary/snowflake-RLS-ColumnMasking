@@ -90,10 +90,10 @@ You should be able to view all the 14 records since this associate is the Presid
 You should be able to view Blake's record and the records of his directs / reportees.
 
 ### Case 3 : Login as a Non-Manager
-* Login as "Adams" who is a Clerk in the org, using snowflake UI / snowsql:
+* Login as "Martin" who is a SALESMAN in the org, using snowflake UI / snowsql:
 
-            username => A7876
-            Password => a7876
+            username => A7654
+            Password => a7654
 
 * Query the view my_organization
 
