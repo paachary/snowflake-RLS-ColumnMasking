@@ -8,4 +8,4 @@ This is synonymous to Oracle's VPD and Column Redaction features.
 seeding.sql -> 
 1. Creates a database and schema
 2. Creates emp and dept tables and seeds sample data into those tables.
-### Note: Those familiar with Oracle's emp and dept tables, they will recognize these scripts and data.
+###### Note: Those familiar with Oracle's emp and dept tables, they will recognize these scripts and data.
