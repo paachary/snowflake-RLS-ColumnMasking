@@ -14,10 +14,12 @@ The emp table stores hierarchy amongst the manager and their associates.
 
 ### rls_column_masking.sql
 --------------------------
-This script creates 
+This script creates
+
 ==>  a mapping table to enable row level security
       i.e. Managers will be able to see their reportees' details including their salary information.
       Non-managers will not be able see any info other than their own.
+
 ==> A column masking policy which prevents an user logged in with HR_OPS role from viewing salary and commission of the associates. 
 
 ### recursive_view.sql
