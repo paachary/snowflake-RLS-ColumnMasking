@@ -5,6 +5,8 @@ This is synonymous to Oracle's VPD and Column Redaction features.
 
 ## Scripts
 
+Execute the following scripts provided in the repository in the order mentioned below.
+
 ### seeding.sql 
 --------------
 1. Creates a database and schema for storing data for this use case.
@@ -60,7 +62,7 @@ This script
 ==> assigns the column masking policy to the sensitive columns of employees views.
 
 
-## How to test the script
+## How to test the RLS and Column masking features
 
 ### Case 1 : Login as Top-Most level Manager
 * Login as "King" who is the President of the org, using snowflake UI / snowsql:
