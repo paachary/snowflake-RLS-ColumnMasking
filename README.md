@@ -25,30 +25,37 @@ This script creates
 ### recursive_view.sql
 ------------------------
 This script creates two database views which get accessed by associates who log into the snowflake UI. 
+
 View Name: 
+
 ==> employee_hierarchy :
-  ** Displays the details of logged-in associate and details of the associate's reportees if the associate is a manager.
-  ** This view joins with the role_mapping_table to restrict the records that must be visible to the logged-in associate.
+
+** Displays the details of logged-in associate and details of the associate's reportees if the associate is a manager.
+** This view joins with the role_mapping_table to restrict the records that must be visible to the logged-in associate.
 
 ==> employees: Displays the details of all the associates in the system viewable by the HR personnel.
 
 ### secure_view.sql
 --------------------
 This script creates secure views for the two general views created earlier.
-my_organization ==> This secure view is on top of employee_hierarchy view and is assigned 
-to MANAGER and EMPLOYEE roles
-employees_org   ==> This secure view is on top of employees view and is assigned 
-to HR_GENERALIST and HR_OPS roles
+
+my_organization ==> This secure view is on top of employee_hierarchy view and is assigned to MANAGER and EMPLOYEE roles
+
+employees_org   ==> This secure view is on top of employees view and is assigned to HR_GENERALIST and HR_OPS roles
 
 ### user_role_creation.sql
 This script 
+
 ==> creates database users for the associates inserted into the emp table previously.
+
 ==> creates roles assigned to the associates ; MANAGER, EMPLOYEE, HR_GENERALIST and HR_OPS
 
 ### object_level_privileges.sql
 --------------------------------
 This script 
+
 ==> provides all the necessary privileges on the Warehouse, Database, Schema, Secure Views to the 4 roles created previously.
+
 ==> assigns the column masking policy to the sensitive columns of employees views.
 
 
