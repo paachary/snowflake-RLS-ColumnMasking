@@ -1,7 +1,8 @@
-# snowflake-RLS-ColumnMasking
+This repository has setup scripts for demonstration of Row Level Security and Column Masking features in Snowflake. This is synonymous to Oracle's VPD and Column Redaction features.
 
-This repository has setup scripts for demonstration of Row Level Security and Column Masking features in Snowflake.
-This is synonymous to Oracle's VPD and Column Redaction features.
+The scripts also provides use cases which can be tested on the Snowflake UI or any other supported tool to verify the features.
+
+Follow along...
 
 ## Scripts
 
